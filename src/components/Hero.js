@@ -9,7 +9,7 @@ function Hero() {
         <div className=' justify-center  w-full px-2 py-8 mt-20'>
             <p className='text-3xl text-white'>Hi, I'm Precious</p>
             <h1 className='py-3 text-2xl md:text-3xl font-bold'>FRONTEND DEVELOPER</h1>    
-            <a href="https://res.cloudinary.com/dpokiomqq/image/upload/v1662567919/Presh_s_CV_k2q32f.pdf"><button className='py-2 px-6 rounded shadow-xl outline-dotted text-white'>View Resume</button></a>
+            <a href="https://res.cloudinary.com/dpokiomqq/image/upload/v1662567919/Presh_s_CV_k2q32f.pdf"><button className='py-2 px-6 rounded shadow-xl lg:outline-dotted border  text-white'>View Resume</button></a>
         </div>
     </div>
 

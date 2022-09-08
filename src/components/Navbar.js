@@ -60,7 +60,7 @@ function Navbar() {
             </ul>
         
         <div className='md:hidden mr-4 cursor-pointer' onClick={handleClick}>
-        {!nav ? <BiMenuAltRight className="w-8 h-8 text-[#DDEEFF]"/>  :  <AiOutlineClose className="w-8 h-8 text-[#DDEEFF]"/> }
+        {!nav ? <BiMenuAltRight className="w-8 h-8 text-[#DDEEFF]"/>  :  <AiOutlineClose className="w-8 h-8 text-[#DDEEFF] hover:text-red-600"/> }
             
         </div>
         </div>

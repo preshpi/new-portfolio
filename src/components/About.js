@@ -35,19 +35,19 @@ function About() {
          <h1 className="text-3xl text-[#E1E6E5] mx-3 mb-4">Skills</h1>
          <div className="grid text-center justify-center">
 
-           <ul className="flex-cols flex mb-3">
+           <ul className="flex-cols flex mb-3" data-aos="slide-right">
              <li className="text-4xl hover:bg-[#cb4709] bg-transparent rounded-lg shadow"><AiOutlineHtml5/></li>
              <li className="text-4xl hover:bg-[#b4d8f7] bg-transparent rounded-lg shadow mx-2"><DiCss3Full/></li>
              <li className="text-4xl hover:bg-[#61DAFA] bg-transparent rounded-lg shadow mx-2"><FaReact/></li>
             </ul>
 
-            <ul className="flex mt-3 mb-3">
+            <ul className="flex mt-3 mb-3" data-aos="slide-left">
              <li className="text-4xl hover:bg-[#38BCF9] bg-transparent rounded-lg shadow"><SiTailwindcss/></li>
              <li className="text-4xl hover:bg-[#F6E01F] bg-transparent rounded-lg shadow mx-2"><TbBrandJavascript/></li>
                           <li className="text-4xl hover:bg-[#7430FB] bg-transparent rounded-lg shadow mx-2"><TbBrandBootstrap/></li>
             </ul>
 
-            <ul className="flex mt-3 mb-3 justify-center">
+            <ul className="flex mt-3 mb-3 justify-center"data-aos="fade-up">
             <li className="text-4xl hover:bg-[#3B77A7] bg-transparent rounded-lg shadow mx-2"><FaPython/></li>
              <li className="text-4xl hover:bg-[#F54D27] bg-transparent rounded-lg shadow mx-2"><FaGit/></li>
             </ul>

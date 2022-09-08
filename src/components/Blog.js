@@ -3,8 +3,8 @@ import React from 'react'
 function Blog() {
   return (
     <div name='blog' className="text-center py-8 md:m-20 lg:m-2 m-8">
-        <h1 className="text-3xl text-[#E1E6E5] mt-12">Blog</h1>
-        <p className="text-xl mt-3 mb-3 text-[#a3d4ff]">Find more about me</p>  
+        <h1 className="text-3xl text-[#E1E6E5] mt-12" data-aos="fade-up">Blog</h1>
+        <p className="text-xl mt-3 mb-3 text-[#a3d4ff]" data-aos="fade-up">Find more about me</p>  
         
           <div className="flex items-center justify-center">
             <div className="max-w-sm rounded-lg border shadow-md bg-gray-800 border-gray-700 ">
