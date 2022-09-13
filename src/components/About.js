@@ -19,17 +19,17 @@ function About() {
         <h1 className="text-[#a3d4ff] text-sm  md:text-xl px-3 tracking-wider leading-8">
                I am a web developer with a strong background in frontend technology. I am eager to gain job experience in order to improve my skills and advance my career. I am driven to advance in an industry that is a good fit for me, to solve frontend development difficulties, and to please web consumers.
                I knew what programming was all about after participating in the first She Code Africa training (SCA). I wasn't consistent until after High school which I later joined several internships programs like HNG, ZURI, KODECAMP and many more to help me improve my skills.
-             </h1> 
+      </h1>
         </div>
         <div className="flex flex-wrap justify-center lg:m-10 md:m-10">
            <div className="w-6/12 sm:w-4/12 px-4 mt-5 text-center">
-           <img class="inline object-cover lg:w-64 lg:h-64  md:w-46 md:h-46 w-24 h-24  mr-2 rounded-full" src="https://res.cloudinary.com/dpokiomqq/image/upload/v1662541874/IMG_0942_1_mbyqqy.jpg" alt="Profile image"/>
-          </div> 
+           <img class="inline object-cover lg:w-64 lg:h-64  md:w-46 md:h-46 w-24 h-24  mr-2 rounded-full" src="https://res.cloudinary.com/dpokiomqq/image/upload/v1663054963/piie_en0mk2.jpg" alt="Profile image"/>
+          </div>
         </div>
         <div>
 
         </div>
-      
+
     </div>
        <div className="mt-12 text-center justify-center">
          <h1 className="text-3xl text-[#E1E6E5] mx-3 mb-4">Skills</h1>
@@ -44,7 +44,7 @@ function About() {
             <ul className="flex mt-3 mb-3" data-aos="slide-left">
              <li className="text-4xl hover:bg-[#38BCF9] bg-transparent rounded-lg shadow"><SiTailwindcss/></li>
              <li className="text-4xl hover:bg-[#F6E01F] bg-transparent rounded-lg shadow mx-2"><TbBrandJavascript/></li>
-                          <li className="text-4xl hover:bg-[#7430FB] bg-transparent rounded-lg shadow mx-2"><TbBrandBootstrap/></li>
+             <li className="text-4xl hover:bg-[#7430FB] bg-transparent rounded-lg shadow mx-2"><TbBrandBootstrap/></li>
             </ul>
 
             <ul className="flex mt-3 mb-3 justify-center"data-aos="fade-up">
@@ -59,7 +59,7 @@ function About() {
               <a href="https:github.com/preshpi">Github <i class="fab fa-github"></i></a>
               <a href="https:www.linkedin.com/in/preshpi-22/">LinkedIn <i class="fab fa-linkedin"></i></a>
               <a href="https:twitter.com/Presh_pie">Twitter <i class="fab fa-twitter"></i></a>
-       </div> 
+       </div>
     </div>
 
     //  <div className="mt-12 h-screen">
@@ -67,14 +67,14 @@ function About() {
     //         <h1 className="text-[#a3d4ff] text-sm lg:text-2xl md:text-xl px-4 tracking-wider leading-8">
     //            I am a web developer with a strong background in frontend technology. I am eager to gain job experience in order to improve my skills and advance my career. I am driven to advance in an industry that is a good fit for me, to solve frontend development difficulties, and to please web consumers.
     //            I knew what programming was all about after participating in the first She Code Africa training (SCA). I wasn't consistent until after High school which I later joined several internships programs like HNG, ZURI, KODECAMP and many more to help me improve my skills.
-    //          </h1>   
+    //          </h1>
     //    </div>
 
 
-     
+
 
     //  </div>
-  
+
   )
 }
 
