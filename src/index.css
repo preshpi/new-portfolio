@@ -170,6 +170,10 @@ a:hover span:nth-child(4){
   color: #1C9AF0;
 }
 
+.social a:nth-child(4) i{
+  color: #4284F5;
+}
+
 /* image project overlay */
 
 .image {

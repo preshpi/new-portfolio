@@ -59,6 +59,7 @@ function About() {
               <a href="https:github.com/preshpi">Github <i class="fab fa-github"></i></a>
               <a href="https:www.linkedin.com/in/preshpi-22/">LinkedIn <i class="fab fa-linkedin"></i></a>
               <a href="https:twitter.com/Presh_pie">Twitter <i class="fab fa-twitter"></i></a>
+              <a href="mailto:webmaster@egwuenuprecious7@gmail.com"><i class="fa fa-envelope"></i></a>
        </div>
     </div>
 
