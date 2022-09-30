@@ -1,4 +1,5 @@
 import React from 'react'
+import { HiChevronDoubleUp } from 'react-icons/hi'
 import ScrollToTop from "react-scroll-to-top";
 function Footer() {
   return (
@@ -6,9 +7,8 @@ function Footer() {
 
           <ScrollToTop  
         smooth
-        viewBox="0 0 24 24"
-        svgPath="M11 2.206l-6.235 7.528-.765-.645 7.521-9 7.479 9-.764.646-6.236-7.53v21.884h-1v-21.883z"
-      />
+        width=""
+        component={<p><HiChevronDoubleUp className=" w-10 text-3xl"/></p>}      />
 
 
       <div class="bg-gray-200 text-center lg:text-left">
