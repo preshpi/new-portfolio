@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import About from './components/About';
+import Skills from './components/Skills';
 import Blog from './components/Blog';
 import Project from './components/Project';
 import Aos from 'aos';
@@ -43,6 +44,7 @@ function App() {
      <Navbar/>
      <Hero/>
      <About/>
+     <Skills/>
      <Project/>
      <Blog/>
      <Footer/> 

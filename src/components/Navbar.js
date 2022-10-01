@@ -37,6 +37,15 @@ function Navbar() {
                             <span></span>
                             ABOUT
                             </Link>
+                        </a>   
+
+                        <a><Link to="skills"  smooth={true} offset={-200} duration={500}>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            Skills
+                            </Link>
                         </a>     
 
                         <a><Link to="project"  smooth={true} offset={-200} duration={500}>
@@ -68,8 +77,9 @@ function Navbar() {
     <ul className={!nav ? 'hidden' : 'absolute bg-[#084446] w-full px-8 h-screen'}>
       <div className='flex flex-col my-4'>
 
-             <li className="border-b-2 border-[#107F7E] w-full mb-3 text-[#92C8C7]"><Link onClick={handleClose} to="about"  smooth={true}  duration={500}>Home</Link></li>
+             <li className="border-b-2 border-[#107F7E] w-full mb-3 text-[#92C8C7]"><Link onClick={handleClose} to="about"  smooth={true} offset={-2000}  duration={500}>Home</Link></li>
              <li className="border-b-2 border-[#107F7E] w-full mb-3 text-[#92C8C7]"><Link onClick={handleClose} to="about"  smooth={true} offset={-50} duration={500}>About</Link></li>
+             <li className="border-b-2 border-[#107F7E] w-full mb-3 text-[#92C8C7]"><Link onClick={handleClose} to="skills"  smooth={true} offset={-190} duration={500}>Skills</Link></li>
              <li className="border-b-2 border-[#107F7E] w-full mb-3 text-[#92C8C7]"><Link onClick={handleClose} to="project" smooth={true} offset={-100} duration={500}>Project</Link></li>
              <li className="border-b-2 border-[#107F7E] w-full mb-3 text-[#92C8C7]"><Link onClick={handleClose} to="about"  smooth={true} offset={2000} duration={500}>Blog</Link></li>
       </div>
