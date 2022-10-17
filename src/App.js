@@ -1,18 +1,14 @@
 import './App.css';
 import './index.css';
+import { Routes, Route } from 'react-router-dom'
 import { useEffect, useState } from 'react';
 import DotLoader from "react-spinners/DotLoader";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Hero from './components/Hero';
-import About from './components/About';
-import Skills from './components/Skills';
-import Blog from './components/Blog';
-import Project from './components/Project';
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import Home from './Pages/Home';
+import Bloggy from './Pages/Bloggy';
 
 function App() {
   const  [loading, setLoading] = useState(false);
@@ -41,14 +37,13 @@ function App() {
 
      :
      <>
-     <Navbar/>
-     <Hero/>
-     <About/>
-     <Skills/>
-     <Project/>
-     <Blog/>
-     <Footer/> 
-     </>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="bloggy" element={<Bloggy/>}/> 
+      </Routes>
+
+    </>
+  
     }
    </div>
 
