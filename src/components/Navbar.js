@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { AiOutlineClose } from "react-icons/ai";
 import { BiMenuAltRight } from "react-icons/bi"; 
-import { Link, animateScroll as scroll } from 'react-scroll'
+import { Link, } from 'react-scroll'
 
 function Navbar() {
 
@@ -12,16 +12,14 @@ function Navbar() {
   return (
     <div className='w-screen h-[80px] z-10 bg-[#084446] fixed drop-shadow-lg'>
         <div className='px-2 flex justify-between items-center w-full h-full'>
-        <div className='flex items-center'>
-            <p className='text-xl  mr-4 sm:text-2xl text-[#E1E6E5]'>Precious Egwuenu</p>
+        <div className='flex items-center px-8'>
+            <p className='text-xl  sm:text-2xl text-[#E1E6E5]'>Precious Egwuenu</p>
         </div>
         
             <ul className='hidden md:flex pr-4'>
-            {/* <li><Link to="test1"  smooth={true} offset={50} duration={500}>Home</Link></li>
-            <li><Link to="test1"  smooth={true} offset={50} duration={500}>About</Link></li>
-            <li><Link to="test1"  smooth={true} offset={50} duration={500}>Blog</Link></li> */}
+          
 
-                       <a><Link to="home"  smooth={true}  duration={500}>
+                       <a href><Link to="home"  smooth={true}  duration={500}>
                             <span></span>
                             <span></span>
                             <span></span>
@@ -30,7 +28,7 @@ function Navbar() {
                             </Link>
                         </a>     
 
-                        <a><Link to="about"  smooth={true} offset={-200} duration={500}>
+                        <a href><Link to="about"  smooth={true} offset={-200} duration={500}>
                             <span></span>
                             <span></span>
                             <span></span>
@@ -39,7 +37,7 @@ function Navbar() {
                             </Link>
                         </a>   
 
-                        <a><Link to="skills"  smooth={true} offset={-200} duration={500}>
+                        <a href><Link to="skills"  smooth={true} offset={-200} duration={500}>
                             <span></span>
                             <span></span>
                             <span></span>
@@ -48,7 +46,7 @@ function Navbar() {
                             </Link>
                         </a>     
 
-                        <a><Link to="project"  smooth={true} offset={-200} duration={500}>
+                        <a href><Link to="project"  smooth={true} offset={-200} duration={500}>
                             <span></span>
                             <span></span>
                             <span></span>
@@ -57,7 +55,7 @@ function Navbar() {
                             </Link>
                         </a>     
 
-                        <a><Link to="blog"  smooth={true} offset={50} duration={500}>
+                        <a href><Link to="blog"  smooth={true} offset={50} duration={500}>
                             <span></span>
                             <span></span>
                             <span></span>
