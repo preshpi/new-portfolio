@@ -9,7 +9,7 @@ function project() {
       <div className="flex justify-center items-center">
       <div className="sm:grid grid-cols-2 px-4">
         <div className="image  max-w-sm rounded overflow-hidden shadow-lg m-5" data-aos="slide-up">      
-          <img className="image__img" src="https://res.cloudinary.com/dpokiomqq/image/upload/v1662547636/adviceapp_oo9lcn.png"/>
+          <img className="image__img" src="https://res.cloudinary.com/dpokiomqq/image/upload/v1662547636/adviceapp_oo9lcn.png" alt="project1"/>
           <div className="image__overlay ">
               <div className="content">
                 <h1 className="text-2xl text-[#E1E6E5]">Advice app</h1>

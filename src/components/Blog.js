@@ -9,7 +9,7 @@ function Blog() {
           <div className="flex items-center justify-center">
             <div className="max-w-sm rounded-lg border shadow-md bg-gray-800 border-gray-700 ">
                 <button>
-                    <img class="rounded-t-lg" src="https://res.cloudinary.com/dpokiomqq/image/upload/v1662486866/blog_ly5koh.jpg" alt="img"/>
+                    <img class="rounded-t-lg" src="https://res.cloudinary.com/dpokiomqq/image/upload/v1671903410/blog_ly5koh_1_gvpruv.jpg" alt="img"/>
                 </button>
                 <div className="p-3">
                     <p className="mb-3 font-normal text-gray-400"> <a href="https://preshegwuenu.hashnode.dev/">My Hashnode blog</a></p>
